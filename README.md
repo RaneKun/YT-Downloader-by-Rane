@@ -4,7 +4,7 @@
 
 😄 It also supports batch processing, so you can queue multiple links and let the tool handle everything automatically.
 
-📽️ In addition, it comes bundled with a video compression option powered by [HandBrakeCLI](https://handbrake.fr/)
+📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/)
  ✨. This is especially useful if you want to reduce the size of downloaded videos without losing much quality.
 
 🦾 Whether you want clean audio files, original thumbnails, or smaller compressed video files, this project provides a streamlined workflow with minimal setup.
