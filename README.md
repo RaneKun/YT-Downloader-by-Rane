@@ -38,14 +38,14 @@ python --version
 You should see something like `Python 3.11.6`.
 
 
-2️⃣. **Clone the Repository**
+2️⃣ **Clone the Repository**
 ~~~
 git clone https://github.com/RaneKun/YT-Downloader-by-Rane.git
 cd YT-Downloader-by-Rane
 ~~~
 
 
-3️⃣. **Install Python Dependencies**
+3️⃣ **Install Python Dependencies**
 
 _This project uses a `requirements.txt` file for all dependencies._ Run:
 ~~~
@@ -65,7 +65,7 @@ This will automatically install:
 ✅ mutagen → Metadata/tag editing
 
 
-4️⃣. **Install FFmpeg**
+4️⃣ **Install FFmpeg**
 
 _This project requires [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) (for video/audio processing)._
 
@@ -105,7 +105,7 @@ sudo apt install ffmpeg
 ~~~
 
 
-5️⃣. Install [HandBrakeCLI](https://handbrake.fr/downloads2.php) (for optional video compression)
+5️⃣ Install [HandBrakeCLI](https://handbrake.fr/downloads2.php) (for optional video compression)
 
 🪟 **Windows**
 
@@ -132,4 +132,3 @@ HandBrakeCLI --version
 ~~~
 
 If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you’re good to go 🎉.
-=
