@@ -42,17 +42,12 @@ You should see something like `Python 3.11.6`.
 
 2️⃣ **Clone the Repository**
 
+**Make sure you have [Git](https://git-scm.com/downloads) installed**. Run these commands in your terminal 💻
+
 Clone this repository
 ~~~
 git clone https://github.com/RaneKun/YT-Downloader-by-Rane.git
 ~~~
-
-Move into the project folder
-~~~
-cd YT-Downloader-by-Rane
-~~~
-
-**Make sure you have [Git](https://git-scm.com/downloads) installed**. Run these commands in your terminal 💻
 
 3️⃣ **Install Python Dependencies**
 
