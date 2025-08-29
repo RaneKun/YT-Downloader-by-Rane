@@ -10,9 +10,9 @@ This is especially useful if you want to reduce the size of downloaded videos wi
 
 🦾 Whether you want clean audio files, original thumbnails, or smaller compressed video files, this project provides a streamlined workflow with minimal setup.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+==============================================================================================================================================================
 <img width="1454" height="1510" alt="Screenshot 2025-08-29 110855" src="https://github.com/user-attachments/assets/34cbfebf-a7d4-4da1-a158-30cf0586c558" />
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+==============================================================================================================================================================
 
 🔧 Installation & Setup
 
@@ -38,6 +38,7 @@ python --version
 You should see something like `Python 3.11.6`.
 
 
+==============================================================================================================================================================
 2️⃣. **Clone the Repository**
 ~~~
 git clone https://github.com/RaneKun/YT-Downloader-by-Rane.git
@@ -45,6 +46,7 @@ cd YT-Downloader-by-Rane
 ~~~
 
 
+==============================================================================================================================================================
 3️⃣. **Install Python Dependencies**
 
 _This project uses a `requirements.txt` file for all dependencies._ Run:
@@ -65,6 +67,7 @@ This will automatically install:
 ✅ mutagen → Metadata/tag editing
 
 
+==============================================================================================================================================================
 4️⃣. **Install FFmpeg**
 
 _This project requires [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) (for video/audio processing)._
@@ -105,6 +108,7 @@ sudo apt install ffmpeg
 ~~~
 
 
+==============================================================================================================================================================
 5️⃣. Install [HandBrakeCLI](https://handbrake.fr/downloads2.php) (for optional video compression)
 
 🪟 **Windows**
@@ -131,4 +135,6 @@ Verify installation:
 HandBrakeCLI --version
 ~~~
 
+==============================================================================================================================================================
 If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you’re good to go 🎉.
+==============================================================================================================================================================
