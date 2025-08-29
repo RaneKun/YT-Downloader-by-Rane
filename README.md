@@ -1,11 +1,12 @@
 # 🀄~ YT-Downloader-by-Rane ~🀄
 💪 A simple yet powerful YouTube downloader built around [yt-dlp](https://github.com/yt-dlp/yt-dlp)
- 👆. This tool lets you download videos, audio, and thumbnails from YouTube with ease, while preserving proper metadata for all supported formats (.mp4, .opus, .webp).
+
+👆 This tool lets you download videos, audio, and thumbnails from YouTube with ease, while preserving proper metadata for all supported formats (.mp4, .opus, .webp).
 
 😄 It also supports batch processing, so you can queue multiple links and let the tool handle everything automatically.
 
-📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/)
- ✨. This is especially useful if you want to reduce the size of downloaded videos without losing much quality.
+📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/downloads2.php)
+This is especially useful if you want to reduce the size of downloaded videos without losing much quality! ✨
 
 🦾 Whether you want clean audio files, original thumbnails, or smaller compressed video files, this project provides a streamlined workflow with minimal setup.
 
@@ -63,12 +64,11 @@ This will automatically install:
 
 4️⃣. Install FFmpeg
 
-_This project requires FFmpeg (for video/audio processing)._
+_This project requires [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) (for video/audio processing)._
 
 **Windows**
 
-Download a build from ffmpeg.org/download
-.
+Download a build for your specific OS from https://github.com/BtbN/FFmpeg-Builds/releases.
 
 Extract the folder (e.g., `ffmpeg-2025-win64`) somewhere permanent (like `C:\ffmpeg`).
 
@@ -101,11 +101,11 @@ sudo apt update
 sudo apt install ffmpeg
 ~~~
 
-5️⃣. Install HandBrakeCLI (for optional video compression)
+5️⃣. Install [HandBrakeCLI](https://handbrake.fr/downloads2.php) (for optional video compression)
 
 **Windows**
 
-Download HandBrakeCLI from the official site: handbrake.fr/downloads
+Download HandBrakeCLI from the official site: https://handbrake.fr/downloads2.php
 
 Extract the folder (e.g., `C:\HandBrake`).
 
