@@ -12,9 +12,9 @@ This is especially useful if you want to reduce the size of downloaded videos wi
 
 <img width="1454" height="1510" alt="Screenshot 2025-08-29 110855" src="https://github.com/user-attachments/assets/34cbfebf-a7d4-4da1-a158-30cf0586c558" />
 
-========================
+=
 🔧 Installation & Setup
-========================
+=
 
 **Follow these steps to set up the project on your system.**
 
@@ -131,6 +131,6 @@ Verify installation:
 HandBrakeCLI --version
 ~~~
 
-=================================================================================================
+=
 If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you’re good to go 🎉.
-=================================================================================================
+=
