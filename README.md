@@ -29,6 +29,8 @@ _This project requires [Python 3.10](https://www.python.org/) or above._
 
 ✅ “Add Python to PATH”)
 
+![download-python-for-windows-5](https://github.com/user-attachments/assets/b825b5c3-48dc-4a09-918e-c9b2b1087250)
+
 Verify installation by running:
 
 ```
@@ -39,11 +41,18 @@ You should see something like `Python 3.11.6`.
 
 
 2️⃣ **Clone the Repository**
+
+Clone this repository
 ~~~
 git clone https://github.com/RaneKun/YT-Downloader-by-Rane.git
+~~~
+
+Move into the project folder
+~~~
 cd YT-Downloader-by-Rane
 ~~~
 
+**Make sure you have [Git](https://git-scm.com/downloads) installed**. Run these commands in your terminal 💻
 
 3️⃣ **Install Python Dependencies**
 
@@ -80,6 +89,8 @@ Add the `bin` folder to PATH:
 Press `Win + R` → type `sysdm.cpl` → Advanced → Environment Variables.
 
 Under System variables, select Path → Edit → New.
+
+<img width="1138" height="1225" alt="Screenshot 2025-08-29 115903" src="https://github.com/user-attachments/assets/5f44c5af-69b1-45af-8591-30171be828a9" />
 
 Add:
 ~~~
