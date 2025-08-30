@@ -138,3 +138,21 @@ HandBrakeCLI --version
 ~~~
 
 If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you’re good to go 🎉.
+
+
+
+How to use it? 🤔
+=
+
+First copy and paste all YouTube **video** links, not playlists, not channels, only video links into that text box, one link per line ✅
+
+<img width="952" height="366" alt="Screenshot 2025-08-30 092537" src="https://github.com/user-attachments/assets/4cd1da22-8d0d-465d-ada4-e181425d5fce" />
+
+Next off select download type, weather you wanna download video, audio or thumbnail or you can download all three at once, just clcik on the checkbox ✔️
+
+Then select your output directory, default is `C:\Users\Public\Videos` (as shown in the screenshot below)
+
+Then finally hit the start button and wait for it to finish 😁
+
+<img width="1430" height="430" alt="Screenshot 2025-08-30 093116" src="https://github.com/user-attachments/assets/c634d084-452e-4858-9aed-3dc101a168b0" />
+
