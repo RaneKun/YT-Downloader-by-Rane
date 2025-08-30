@@ -58,15 +58,15 @@ pip install -r requirements.txt
 
 This will automatically install:
 
-✅ PyQt6 → GUI framework
+-> PyQt6 → GUI framework
 
-✅ ffmpeg-python → Python wrapper for FFmpeg
+-> ffmpeg-python → Python wrapper for FFmpeg
 
-✅ yt-dlp → YouTube downloader backend
+-> yt-dlp → YouTube downloader backend
 
-✅ requests → HTTP requests handling
+-> requests → HTTP requests handling
 
-✅ mutagen → Metadata/tag editing
+-> mutagen → Metadata/tag editing
 
 
 4️⃣ **Install FFmpeg**
@@ -144,15 +144,15 @@ If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you�
 How to use it? 🤔
 =
 
-First copy and paste all YouTube **video** links, not playlists, not channels, only video links into that text box, one link per line ✅
+1️⃣ Copy and paste all YouTube **video** links, not playlists, not channels, only video links into that text box, one link per line ✅
 
-<img width="952" height="366" alt="Screenshot 2025-08-30 092537" src="https://github.com/user-attachments/assets/4cd1da22-8d0d-465d-ada4-e181425d5fce" />
+<img width="969" height="307" alt="Screenshot 2025-08-30 093800" src="https://github.com/user-attachments/assets/2231a9bc-69d1-4647-b777-a1ad3f30928b" />
 
-Next off select download type, weather you wanna download video, audio or thumbnail or you can download all three at once, just clcik on the checkbox ✔️
+2️⃣ Select download type, weather you wanna download video, audio or thumbnail or you can download all three at once, just clcik on the checkbox ✔️
 
-Then select your output directory, default is `C:\Users\Public\Videos` (as shown in the screenshot below)
+3️⃣ Select your output directory, default is `C:\Users\Public\Videos` (as shown in the screenshot below)
 
-Then finally hit the start button and wait for it to finish 😁
+4️⃣ Finally hit the start button and wait for it to finish 😁
 
-<img width="1430" height="430" alt="Screenshot 2025-08-30 093116" src="https://github.com/user-attachments/assets/c634d084-452e-4858-9aed-3dc101a168b0" />
+<img width="1425" height="433" alt="Screenshot 2025-08-30 093823" src="https://github.com/user-attachments/assets/b6eb0bd9-4175-44a6-b77f-435bd1a30dd3" />
 
