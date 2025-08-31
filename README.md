@@ -14,6 +14,16 @@ This is especially useful if you want to reduce the size of downloaded videos wi
 
 <img width="1454" height="1510" alt="Screenshot 2025-08-29 110855" src="https://github.com/user-attachments/assets/34cbfebf-a7d4-4da1-a158-30cf0586c558" />
 
+## 🛠 Tech Stack
+
+![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![ffmpeg-python](https://img.shields.io/badge/ffmpeg--python-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-FF4500?style=for-the-badge&logo=youtube&logoColor=white)
+![Requests](https://img.shields.io/badge/Requests-2F79D2?style=for-the-badge&logo=python&logoColor=white)
+![Mutagen](https://img.shields.io/badge/Mutagen-5A2D81?style=for-the-badge&logo=python&logoColor=white)
+![HandBrakeCLI](https://img.shields.io/badge/HandBrakeCLI-5B3F92?style=for-the-badge&logo=handbrake&logoColor=white)
+![ffmpeg](https://img.shields.io/badge/ffmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+
 
 🔧 Installation & Setup
 =
