@@ -225,6 +225,8 @@ So do I even need to use your Video Compressor or can I directly use Handbrake? 
 
 Well good question lad! You can ofc use Handbrake here directly which has a far better UI than mine, (but not a cultured one 😆) but this compressor uses [Handbrake CLI](https://handbrake.fr/downloads2.php) as mentioned [before](#video-compressor) **And another very important part** handbrake won't retain metadata which is the whole reason why I started this project in the first place 😤 But my compressor will retain all metadata _just like how the downloader does_ 😁
 
+--> And also my current `handbrake preset.json` config file is already a good balance between quality and file size which is good for both daily use and in use with my downloader 😄
+
 This is for the curious geeks 🤓
 =
 
