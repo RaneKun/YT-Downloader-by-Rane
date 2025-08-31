@@ -233,6 +233,17 @@ Well good question lad! You can ofc use Handbrake here directly which has a far 
 
 --> And also my current `handbrake preset.json` config file is already a good balance between quality and file size which is good for both daily use and in use with my downloader 😄
 
+How is your Downloader and Compressor any different and why should I use it? 🤨
+=
+
+Beacuse my downloader and compressor retains meta-data which other downloaders/compressors don't! (atleast all the ones which I have tried so far) 😄
+
+Example 💚
+
+<img width="1177" height="992" alt="Screenshot 2025-08-31 143614" src="https://github.com/user-attachments/assets/2427086a-a63f-4e69-9bc2-e6e9f53bc4d7" />
+
+My downloader and compressor is User-Friendly, Cultured (without any force 🤣) and also has a built in Compressor that just works and is good for even everyday use 😁
+
 This is for the curious geeks 🤓
 =
 
