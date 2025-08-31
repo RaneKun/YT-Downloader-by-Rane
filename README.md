@@ -215,6 +215,7 @@ How does the video compressor work? 🤔
 =
 
 Well am glad you asked! So most of it works the same way as the downloader, you just need to browse the **input files** _(which are the downloaded files of off my downloader)_ and then hit `Start` to start the compression ✔️
+
 -> To tweak the compression swettings you will need to go to this directory first `YT Downloader + Compressor by Rane\Main Files\Configs\Video Compressor` and find the file called `handbrake preset.json` and edit it ✅
 
 _Easy way to do that is by installing [handbrake](https://handbrake.fr/), creating a custom preset there for your requirement, and then exporting that as a `.json` file_ ✅📁
