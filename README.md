@@ -44,7 +44,9 @@ You should see something like `Python 3.11.6`.
 
 2️⃣ **Clone the Repository**
 
-**Make sure you have [Git](https://git-scm.com/downloads) installed**. Run these commands in your terminal 💻
+**Make sure you have [Git](https://git-scm.com/downloads) installed**. 
+
+_First select where you want to clone the project_ (Example - Make a new folder in Desktop, name it `YT Downloader + Compressor` and then open the folder, shift+right-click on it and click on `Open in Terminal`) and then run these commands in your terminal 💻
 
 Clone this repository
 ~~~
