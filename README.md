@@ -156,3 +156,28 @@ How to use it? 🤔
 
 <img width="1425" height="433" alt="Screenshot 2025-08-30 093823" src="https://github.com/user-attachments/assets/b6eb0bd9-4175-44a6-b77f-435bd1a30dd3" />
 
+Additional Features ➕
+=
+
+🟣 **Preview Links** 🔗🖇️
+
+-> You can click on the Preview Link button to preview links before downloading them, this is especially useful during bulk downloading to check the links out before hitting download. 😁👍
+-> It will show all the useful necessary information like thumbnail, title and channel name. 📝🖼️
+
+<img width="2470" height="1858" alt="Screenshot 2025-08-31 124451" src="https://github.com/user-attachments/assets/81d3eec4-c3ca-4809-a458-d79a9e69c2bf" />
+
+_Note that after clicking this button, the UI will freeze temporarily until it is done processing everything in the background and then return back to normal_ 👍✔️
+
+🟣 **Load Cookies** 🍪🥠
+
+-> You can click on the load cookies button to load your cookie file which will then allow you to download private/restricted content from youtube ⭕🔞
+-> To get your cookie file you will need to download this very [extention](https://chromewebstore.google.com/detail/cclelndahbckbenkjhflpdbgdldlbecc?utm_source=item-share-cb) (_note that other similar extentions also do work but the file name might need to be modified, the default file name that is accepted by this downloader is - `www.youtube.com_cookies.txt`_) 🔰
+-> Now to use this extention, simply open [YouTube](https://www.youtube.com/) and then clcik on extentions -> `Get cookies.txt LOCALLY` and then hit `Export` which will then download the `www.youtube.com_cookies.txt` file. 🍪
+
+<img width="750" height="1029" alt="Screenshot 2025-08-31 125505" src="https://github.com/user-attachments/assets/90c97ba8-b630-43b7-b7db-b2c966d1e870" />
+
+<img width="1071" height="1257" alt="Screenshot 2025-08-31 125526" src="https://github.com/user-attachments/assets/61f36eae-704d-4881-ba3c-c6de00aaebbd" />
+
+<img width="723" height="243" alt="Screenshot 2025-08-31 125547" src="https://github.com/user-attachments/assets/f2f9d375-d50d-4de0-a5da-568f7b87d69e" />
+
+-> You will need to load this cookie file into the downloader, but remember that this cookie file **will expire within 15-30 minutes** _so you will need to repeat the process every now and then_, and I have tried to make it permanent but this is a yt-dlp limitation and besides, **there's a risk of getting your account banned** if the cookie file never expires, so this is better anyways and don't worry, _this is 100% safe, I have tried it with my very own account_ ⭐👍
