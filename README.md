@@ -21,7 +21,7 @@ This is especially useful if you want to reduce the size of downloaded videos wi
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-FF4500?style=for-the-badge&logo=youtube&logoColor=white)
 ![Requests](https://img.shields.io/badge/Requests-2F79D2?style=for-the-badge&logo=python&logoColor=white)
 ![Mutagen](https://img.shields.io/badge/Mutagen-5A2D81?style=for-the-badge&logo=python&logoColor=white)
-![HandBrakeCLI](https://img.shields.io/badge/HandBrakeCLI-5B3F92?style=for-the-badge&logo=handbrake&logoColor=white)
+![HandBrakeCLI](https://img.shields.io/badge/🍹%20HandBrakeCLI-5B3F92?style=for-the-badge)
 ![ffmpeg](https://img.shields.io/badge/ffmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
 
 
