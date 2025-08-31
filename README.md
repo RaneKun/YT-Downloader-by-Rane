@@ -5,7 +5,8 @@
 
 😄 It also supports batch processing, so you can queue multiple links and let the tool handle everything automatically.
 
-## 📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/downloads2.php).
+📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/downloads2.php).
+
 This is especially useful if you want to reduce the size of downloaded videos without losing much quality! ✨
 
 🦾 Whether you want clean audio files, original thumbnails, or smaller compressed video files, this project provides a streamlined workflow with minimal setup.
@@ -167,6 +168,7 @@ Additional Features ➕
 🟣 **Preview Links** 🔗🖇️
 
 -> You can click on the Preview Link button to preview links before downloading them, this is especially useful during bulk downloading to check the links out before hitting download. 😁👍
+
 -> It will show all the useful necessary information like thumbnail, title and channel name. 📝🖼️
 
 <img width="2470" height="1858" alt="Screenshot 2025-08-31 124451" src="https://github.com/user-attachments/assets/81d3eec4-c3ca-4809-a458-d79a9e69c2bf" />
@@ -176,7 +178,9 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 🟣 **Load Cookies** 🍪🥠
 
 -> You can click on the load cookies button to load your cookie file which will then allow you to download private/restricted content from youtube ⭕🔞
+
 -> To get your cookie file you will need to download this very [extention](https://chromewebstore.google.com/detail/cclelndahbckbenkjhflpdbgdldlbecc?utm_source=item-share-cb) (_note that other similar extentions also do work but the file name might need to be modified, the default file name that is accepted by this downloader is - `www.youtube.com_cookies.txt`_) 🔰
+
 -> Now to use this extention, simply open [YouTube](https://www.youtube.com/) and then clcik on extentions -> `Get cookies.txt LOCALLY` and then hit `Export` which will then download the `www.youtube.com_cookies.txt` file. 🍪
 
 <img width="750" height="1029" alt="Screenshot 2025-08-31 125505" src="https://github.com/user-attachments/assets/c3013230-d0c3-4501-8b8e-327fafce8a56" />
@@ -186,6 +190,8 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 <img width="723" height="243" alt="Screenshot 2025-08-31 125547" src="https://github.com/user-attachments/assets/c407ad8e-7549-4e2b-a202-886448871595" />
 
 -> You will need to load this cookie file into the downloader, but remember that this cookie file **will expire within 15-30 minutes** _so you will need to repeat the process every now and then_, and I have tried to make it permanent but this is a yt-dlp limitation and besides, **there's a risk of getting your account banned** if the cookie file never expires, so this is better anyways and don't worry, _this is 100% safe, I have tried it with my very own account_ ⭐👍
+
+~_again, remember that there's no need of this step and this is completely optional if you're just downloading casual stuff from YouTube_~
 
 🟣 Bonus Tip ✨🗒️
 =
@@ -197,7 +203,9 @@ Now to talk about the Video Compressor 📽️
 =
 
 I know, not many people are gonna be needing it really but I made it regardless because of two reasons
+
 1️⃣ I needed it for my personal use, just like the downloader ✅
+
 2️⃣ There is no option in my downloader to select the quality of the video file 🫠
 
 How does the video compressor work? 🤔
@@ -205,7 +213,8 @@ How does the video compressor work? 🤔
 
 Well am glad you asked! So most of it works the same way as the downloader, you just need to browse the **input files** _(which are the downloaded files of off my downloader)_ and then hit `Start` to start the compression ✔️
 -> To tweak the compression swettings you will need to go to this directory first `YT Downloader + Compressor by Rane\Main Files\Configs\Video Compressor` and find the file called `handbrake preset.json` and edit it ✅
-_Easy way to do that is by installing [handbrake](https://handbrake.fr/), creating a custom preset there for your requirement, and then exporting that as a `.json` file ✅📁_
+
+_Easy way to do that is by installing [handbrake](https://handbrake.fr/), creating a custom preset there for your requirement, and then exporting that as a `.json` file_ ✅📁
 
 So do I even need to use your Video Compressor or can I directly use Handbrake? 🤔
 =
