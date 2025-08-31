@@ -203,6 +203,8 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 Now to talk about the Video Compressor 📽️
 =
 
+<img width="2604" height="560" alt="Screenshot 2025-08-31 135621" src="https://github.com/user-attachments/assets/b5c438f5-1185-4bd3-a7c5-17882db0be79" />
+
 I know, not many people are gonna be needing it really but I made it regardless because of two reasons
 
 1️⃣ I needed it for my personal use, just like the downloader ✅
@@ -226,3 +228,18 @@ This is for the curious geeks 🤓
 =
 
 If you wanna see what's happening in the background, everything, line-by-line, then just rename the extentions `.pyw` to `.py` and then run them on the terminal and check out all the debugging lines in detail ✌️
+
+Addional Customization 🎨🖌️
+=
+
+You can change the background (if you're shy 😳 or wanna spice things up a little more 👅) by going onto this directory - `YT Downloader + Compressor by Rane\Main Files\Assests\YouTube Downloader` and replacing the `default_background.jpg` file with something of your choice ✌️
+
+Aspect ratio won't really matter much as the UI is scalable but something 4:3 might still be better, just make sure the file name remains the same ✔️
+
+Some Important Notes ⚠️
+=
+
+You are free to modify the files as you wish but for personal use only! Please do not reproduce my work and upload it somewhere else without even mentioning me. I could have kept this project as Closed-Source but I support Open-Source projects a lot and thus decided to keep it that way so please respect this decision of mine 👍
+
+**ad astra abyssosque** people and Happy Downloading 😁✌️
+
