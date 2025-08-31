@@ -5,6 +5,7 @@
 
 😄 It also supports batch processing, so you can queue multiple links and let the tool handle everything automatically.
 
+<a id="video-compressor"></a>
 📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/downloads2.php).
 
 This is especially useful if you want to reduce the size of downloaded videos without losing much quality! ✨
@@ -219,7 +220,7 @@ _Easy way to do that is by installing [handbrake](https://handbrake.fr/), creati
 So do I even need to use your Video Compressor or can I directly use Handbrake? 🤔
 =
 
-Well good question lad! You can ofc use Handbrake here directly which has a far better UI than mine, (but not a cultured one 😆) but this compressor uses [Handbrake CLI](https://handbrake.fr/downloads2.php) as mentioned [before](# 📽️ In addition, it comes bundled with a video compressor tool powered by [HandBrakeCLI](https://handbrake.fr/downloads2.php).) **And another very important part** handbrake won't retain metadata which is the whole reason why I started this project in the first place 😤 But my compressor will retain all metadata _just like how the downloader does_ 😁
+Well good question lad! You can ofc use Handbrake here directly which has a far better UI than mine, (but not a cultured one 😆) but this compressor uses [Handbrake CLI](https://handbrake.fr/downloads2.php) as mentioned [before](#video-compressor) **And another very important part** handbrake won't retain metadata which is the whole reason why I started this project in the first place 😤 But my compressor will retain all metadata _just like how the downloader does_ 😁
 
 This is for the curious geeks 🤓
 =
