@@ -174,10 +174,10 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 -> To get your cookie file you will need to download this very [extention](https://chromewebstore.google.com/detail/cclelndahbckbenkjhflpdbgdldlbecc?utm_source=item-share-cb) (_note that other similar extentions also do work but the file name might need to be modified, the default file name that is accepted by this downloader is - `www.youtube.com_cookies.txt`_) 🔰
 -> Now to use this extention, simply open [YouTube](https://www.youtube.com/) and then clcik on extentions -> `Get cookies.txt LOCALLY` and then hit `Export` which will then download the `www.youtube.com_cookies.txt` file. 🍪
 
-<img width="750" height="1029" alt="Screenshot 2025-08-31 125505" src="https://github.com/user-attachments/assets/90c97ba8-b630-43b7-b7db-b2c966d1e870" />
+<img width="750" height="1029" alt="Screenshot 2025-08-31 125505" src="https://github.com/user-attachments/assets/c3013230-d0c3-4501-8b8e-327fafce8a56" />
 
-<img width="1071" height="1257" alt="Screenshot 2025-08-31 125526" src="https://github.com/user-attachments/assets/61f36eae-704d-4881-ba3c-c6de00aaebbd" />
+<img width="1071" height="1257" alt="Screenshot 2025-08-31 125526" src="https://github.com/user-attachments/assets/9fe9b19c-0565-4159-908f-c0cfabb5f38d" />
 
-<img width="723" height="243" alt="Screenshot 2025-08-31 125547" src="https://github.com/user-attachments/assets/f2f9d375-d50d-4de0-a5da-568f7b87d69e" />
+<img width="723" height="243" alt="Screenshot 2025-08-31 125547" src="https://github.com/user-attachments/assets/c407ad8e-7549-4e2b-a202-886448871595" />
 
 -> You will need to load this cookie file into the downloader, but remember that this cookie file **will expire within 15-30 minutes** _so you will need to repeat the process every now and then_, and I have tried to make it permanent but this is a yt-dlp limitation and besides, **there's a risk of getting your account banned** if the cookie file never expires, so this is better anyways and don't worry, _this is 100% safe, I have tried it with my very own account_ ⭐👍
