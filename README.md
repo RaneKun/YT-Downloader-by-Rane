@@ -194,6 +194,12 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 
 ~_again, remember that there's no need of this step and this is completely optional if you're just downloading casual stuff from YouTube_~
 
+🟣**Update yt-dlp** ⬆️🔺
+
+There is a handy-dandy button to update the `yt-dlp` fork which is the backbone of this downloader! You may need to update this once every 2 weeks because `YouTube` keeps modifying things to prevent downloaders from working and at the same time `yt-dlp` keeps updating so that downloaders do keep working... the classic cat and mouse chase 😂
+
+-> To update `yt-dlp` with one click, simply click on the `Check for yt-dlp update` button and let it do it's thing! (_you can see the info inside the terminal and then close it manually when done _✅)
+
 🟣 Bonus Tip ✨🗒️
 =
 
