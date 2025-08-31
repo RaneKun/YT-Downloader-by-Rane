@@ -237,10 +237,12 @@ You can change the background (if you're shy 😳 or wanna spice things up a lit
 
 Aspect ratio won't really matter much as the UI is scalable but something 4:3 might still be better, just make sure the file name remains the same ✔️
 
-Some Important Notes ⚠️
+One Last Thing ⚠️
 =
 
-You are free to modify the files as you wish but for personal use only! Please do not reproduce my work and upload it somewhere else without even mentioning me. I could have kept this project as Closed-Source but I support Open-Source projects a lot and thus decided to keep it that way so please respect this decision of mine 👍
+Go ahead and tweak these files however you like for personal use!
+Just please don’t re-upload or share my work elsewhere without credit.
+I could’ve made this closed-source, but I really believe in open-source—so let’s keep that spirit alive. 👍
 
-**ad astra abyssosque** people and Happy Downloading 😁✌️
+**Ad Astra Abyssosque** people and Happy Downloading 😁✌️
 
