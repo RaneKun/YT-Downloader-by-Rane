@@ -261,6 +261,8 @@ This is for the curious geeks 🤓
 
 If you wanna see what's happening in the background, everything, line-by-line, then just rename the extentions `.pyw` to `.py` and then run them on the terminal and check out all the debugging lines in detail ✌️
 
+Temp folder location - `C:\Windows\Temp` 🗑️
+
 Addional Customization 🎨🖌️
 =
 
