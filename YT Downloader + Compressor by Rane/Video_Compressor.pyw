@@ -28,6 +28,33 @@ from PyQt6.QtCore import Qt, QThread, pyqtSignal
 import sys  # Provides access to command line arguments and system functions
 import subprocess  # Allows running external commands
 import os  # Provides operating system dependent functionality
+
+# =============================================================================
+# RESOURCE PATH HELPER (for PyInstaller)
+# =============================================================================
+
+def resource_path(relative_path):
+    """
+    Get absolute path to resource, works for dev and for PyInstaller.
+    When running as a PyInstaller bundle, files are extracted to a temp folder.
+    This function ensures we can find bundled resources like icons and images.
+    
+    Args:
+        relative_path (str): Relative path to the resource
+        
+    Returns:
+        str: Absolute path to the resource
+    """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        # Running in normal Python environment
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
+
+# =============================================================================
 import time  # Provides time-related functions
 import re  # Provides regular expression operations
 import shutil  # Provides high-level file operations
@@ -322,7 +349,7 @@ class VideoCompressorApp(QMainWindow):
         self.worker = None  # Worker thread reference
         print("[INIT] Initializing VideoCompressorApp main window...")  # Debug: Initialization
         self.setWindowTitle("Video Compressor by Rane")  # Set window title
-        self.setWindowIcon(QIcon('Main Files/Assests/Video Compressor/default_icon.ico'))  # Set window icon
+        self.setWindowIcon(QIcon(resource_path('Main Files/Assests/Video Compressor/default_icon.ico')))  # Set window icon
         self.output_dir = self.load_last_output_dir()  # Load last used output directory
         self.preset_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Main Files/Configs/Video Compressor/handbrake preset.json')  # Preset file path
         print(f"[CONFIG] Loaded output directory: {self.output_dir}")  # Debug: Output dir
@@ -348,7 +375,7 @@ class VideoCompressorApp(QMainWindow):
         # Initialize background image
         print("[UI] Setting up background image...")  # Debug: Background start
         self.background_label = QLabel(self)  # Create label for background
-        self.set_background_image('Main Files/Assests/Video Compressor/default_background.jpg')  # Set background image
+        self.set_background_image(resource_path('Main Files/Assests/Video Compressor/default_background.jpg'))  # Set background image
         print("[UI] Background setup complete")  # Debug: Background complete
 
     def init_layouts(self):
