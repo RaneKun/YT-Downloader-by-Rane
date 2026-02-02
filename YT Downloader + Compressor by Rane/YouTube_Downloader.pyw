@@ -42,13 +42,40 @@ import importlib.util # Provides tools for dynamic module loading
 import datetime  # Provides date and time functionality
 from io import BytesIO  # Provides in-memory byte stream handling
 
+
+# =============================================================================
+# RESOURCE PATH HELPER (for PyInstaller)
+# =============================================================================
+
+def resource_path(relative_path):
+    """
+    Get absolute path to resource, works for dev and for PyInstaller.
+    When running as a PyInstaller bundle, files are extracted to a temp folder.
+    This function ensures we can find bundled resources like icons and images.
+    
+    Args:
+        relative_path (str): Relative path to the resource
+        
+    Returns:
+        str: Absolute path to the resource
+    """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        # Running in normal Python environment
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
+
+# =============================================================================
 # Main application class for the YouTube Downloader
 class YouTubeDownloaderApp(QMainWindow):
     def __init__(self):
         super().__init__()  # Initialize the parent QMainWindow class
         print("[INIT] Initializing YouTubeDownloaderApp main window...")  # Debug: Main window initialization
         self.setWindowTitle("YouTube Downloader by Rane")  # Set window title
-        self.setWindowIcon(QIcon('Main Files/Assests/YouTube Downloader/default_icon.ico'))  # Set window icon
+        self.setWindowIcon(QIcon(resource_path('Main Files/Assests/YouTube Downloader/default_icon.ico')))  # Set window icon
         self.worker = None  # Initialize worker thread reference to None
         self.total_tasks = 0  # Initialize total download tasks counter
         self.completed_tasks = 0  # Initialize completed tasks counter
@@ -82,7 +109,7 @@ class YouTubeDownloaderApp(QMainWindow):
     def init_background(self):
         print("[UI] Setting up background image...")  # Debug: Background setup
         self.background_label = QLabel(self)  # Create label for background
-        self.set_background_image('Main Files/Assests/YouTube Downloader/default_background.jpg')  # Load background image
+        self.set_background_image(resource_path('Main Files/Assests/YouTube Downloader/default_background.jpg'))  # Load background image
         print("[UI] Background setup complete")  # Debug: Background ready
 
     def init_layouts(self):
