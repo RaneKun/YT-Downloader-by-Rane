@@ -151,6 +151,32 @@ Verify installation:
 HandBrakeCLI --version
 ~~~
 
+6️⃣ **Install Deno** (JS runtime required by yt-dlp 🦕)
+
+_yt-dlp needs a JavaScript runtime to solve YouTube’s challenges and access all available formats. Without it, you’ll get a warning and some formats may go missing in the future!_ ⚠️
+
+🚪 **Windows** — open **PowerShell** _(not CMD!)_ and run:
+~~~
+irm https://deno.land/install.ps1 | iex
+~~~
+
+🍎 **macOS**
+~~~
+brew install deno
+~~~
+
+🐧 **Linux**
+~~~
+curl -fsSL https://deno.land/install.sh | sh
+~~~
+
+After installing, **close and reopen your terminal**, then verify with:
+~~~
+deno --version
+~~~
+
+You should see something like `deno 2.x.x` ✅ — and that warning will be gone for good 😤👊
+
 If `YouTube Downloader.pyw` and `Video Compressor.pyw` opens successfully, you’re good to go 🎉.
 
 
@@ -211,6 +237,8 @@ _Note that after clicking this button, the UI will freeze temporarily until it i
 There is a handy-dandy button to update the `yt-dlp` fork which is the backbone of this downloader! You may need to update this once every 2 weeks because `YouTube` keeps modifying things to prevent downloaders from working and at the same time `yt-dlp` keeps updating so that downloaders do keep working... the classic cat and mouse chase 😂
 
 -> To update `yt-dlp` with one click, simply click on the `Check for yt-dlp update` button and let it do it's thing! (_you can see the info inside the terminal and then close it manually when done _✅)
+
+_📝 Note: The update button always uses `pip install -U "yt-dlp[default]"` under the hood, which also keeps the `yt-dlp-ejs` scripts in sync with your yt-dlp version automatically — so you never have to worry about that separately_ 👌
 
 🟣 Bonus Tip ✨🗒️
 =
@@ -278,4 +306,3 @@ Just please don’t re-upload or share my work elsewhere without credit.
 I could’ve made this closed-source, but I really believe in open-source—so let’s keep that spirit alive. 👍
 
 **Ad Astra Abyssosque** people and Happy Downloading 😁✌️
-
