@@ -444,23 +444,26 @@ class YouTubeDownloaderApp(QMainWindow):
             preview_window.exec()
             print("[PREVIEW] Window closed")  # Debug: Preview complete
 
-    def check_yt_dlp_update(self):
-        """Check how yt-dlp was installed and update it accordingly."""
-        print("[UPDATE] Checking yt-dlp installation method...")  # Debug: Update check
-        # Check if yt-dlp is a pip package
-        yt_dlp_spec = importlib.util.find_spec("yt_dlp")
-        if yt_dlp_spec and yt_dlp_spec.origin and "site-packages" in yt_dlp_spec.origin:
-            # Installed via pip
-            update_command = ["cmd", "/c", "start", "cmd", "/k", "pip install --upgrade yt-dlp"]
-            print("[UPDATE] yt-dlp installed via pip, using pip upgrade")  # Debug: Pip update
-        else:
-            # Installed as a standalone binary
-            update_command = ["cmd", "/c", "start", "cmd", "/k", "yt-dlp -U"]
-            print("[UPDATE] yt-dlp installed as binary, using built-in updater")  # Debug: Binary update
+    def check_yt_dlp_update(self) -> None:
+            """
+            Update yt-dlp to the latest version.
 
-        print(f"[UPDATE] Executing update command: {update_command}")  # Debug: Command execution
-        subprocess.Popen(update_command)  # Execute update
-        print("[UPDATE] Update process started")  # Debug: Update initiated
+            Always attempts pip upgrade first (handles pip-installed yt-dlp correctly),
+            then falls back to yt-dlp's built-in updater if pip is not available.
+            This avoids the 'installed via pip, use pip to update' error entirely.
+            """
+            print("[UPDATE] Initiating yt-dlp update process...")  # Debug: Update start
+
+            # Build a command that always tries pip first, then falls back to yt-dlp -U
+            # The '||' operator means: only run the right side if the left side fails
+            update_command = [
+                "cmd", "/c", "start", "cmd", "/k",
+                "pip install --upgrade yt-dlp || yt-dlp -U"
+            ]
+
+            print(f"[UPDATE] Executing update command: {update_command}")  # Debug: Command execution
+            subprocess.Popen(update_command)  # Execute update in a new visible console window
+            print("[UPDATE] Update process started in new console window")  # Debug: Update initiated
 
     def start_download(self):
         print("[DOWNLOAD] Starting download process...")  # Debug: Download initiation
