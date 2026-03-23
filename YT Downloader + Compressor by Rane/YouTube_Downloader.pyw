@@ -458,7 +458,7 @@ class YouTubeDownloaderApp(QMainWindow):
             # The '||' operator means: only run the right side if the left side fails
             update_command = [
                 "cmd", "/c", "start", "cmd", "/k",
-                "pip install --upgrade yt-dlp || yt-dlp -U"
+                'pip install -U "yt-dlp[default]" || yt-dlp -U'
             ]
 
             print(f"[UPDATE] Executing update command: {update_command}")  # Debug: Command execution
